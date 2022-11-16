@@ -1,0 +1,25 @@
+{
+  "name": "myfavoritefoodapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "npx sass --watch src/sass/style.scss:public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomid03/MyFavoriteFoodApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomid03/MyFavoriteFoodApp/issues"
+  },
+  "homepage": "https://github.com/nomid03/MyFavoriteFoodApp#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
