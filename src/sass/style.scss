@@ -1,31 +1,8 @@
-@import url(header.scss);
-@import url(footer.scss);
-@import url(main.scss);
-@import url(banner.scss);
+@import 'header.scss';
+@import 'footer.scss';
+@import 'main.scss';
+@import 'banner.scss';
 
-body{
-    background-color: beige;
-}
-* {
-    box-sizing: border-box;
-    border:1px solid black;
-  }
-   
-  .fd1 {
-    display: flex;
-  }
-   
-  /* Create three equal columns that sits next to each other */
-  .fd2 {
-    flex: 33.33%;
-    padding: 5px;
-  }
-  #banner{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-  h1{
-    text-align: center;
-  }
+
+
+ 
