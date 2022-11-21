@@ -1,4 +1,7 @@
 @import url(header.scss);
+@import url(footer.scss);
+@import url(main.scss);
+@import url(banner.scss);
 
 body{
     background-color: beige;
@@ -18,6 +21,11 @@ body{
     padding: 5px;
   }
   #banner{
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
-  
+  h1{
+    text-align: center;
+  }
